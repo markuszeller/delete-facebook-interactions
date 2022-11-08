@@ -27,6 +27,6 @@ Das Script funktioniert nur, wenn dein Browser bzw. die Facebook-Seite auf Deuts
 
 ![F12](images/F12.png)
 
-7. Kopiere den Inhalt von [deleteLikes.js](src/deleteLikes.js) unten in die Konsole wo der Cursor blinkt und drücke `Enter`.
+7. Kopiere den Inhalt von [src/deleteLikes.js](src/deleteLikes.js) unten in die Konsole wo der Cursor blinkt und drücke `Enter`.
 
 # Fertig!
