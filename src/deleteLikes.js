@@ -7,12 +7,16 @@ const click = async (element) => {
     await new Promise((resolve) => setTimeout(() => {
         down(document.querySelector(menu), 7).click();
         resolve();
-    }, 250));
+    }, 400));
 };
 
+let retry = 5;
 (async function main() {
     let dot;
     while (dot = document.querySelector(dots)) {
         await click(dot);
+    }
+    if (retry++ < 5) {
+        setTimeout(main, 2000);
     }
 })();
