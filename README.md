@@ -9,6 +9,10 @@ Da Facebook selbst keine Möglichkeit bietet, die Likes zu löschen, habe ich mi
 
 ![Animation](images/Animation.gif)
 
+## Hinweise
+
+Das Script funktioniert nur, wenn dein Browser bzw. die Facebook-Seite auf Deutsch eingestellt ist. Bei einer anderen Sprache mußt du den Selektor `"Weitere Optionen"` entsprechend anpassen.
+
 ## Anleitung
 
 1. Gehe auf dein Facebook Profil
