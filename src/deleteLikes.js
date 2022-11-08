@@ -7,7 +7,7 @@ const click = async (element) => {
     await new Promise((resolve) => setTimeout(() => {
         down(document.querySelector(menu), 7).click();
         resolve();
-    }, 400));
+    }, 800));
 };
 
 let retry = 5;
