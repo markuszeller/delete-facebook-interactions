@@ -15,6 +15,7 @@ let retry = 5;
     let dot;
     while (dot = document.querySelector(dots)) {
         await click(dot);
+        retry = 0;
     }
     if (retry++ < 5) {
         setTimeout(main, 2000);
